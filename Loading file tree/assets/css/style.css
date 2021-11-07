@@ -1,0 +1,115 @@
+/* Global Start */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    background-image: url("../img/sterne.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/* Global END */
+
+/* Header Start*/
+h1 {
+    color: orange;
+    margin: 39px 0px;
+    font-size: 10rem;
+    border: 1px solid black;
+    border-bottom: 2px solid white;
+}
+
+header{
+    display:flex;
+    justify-content: space-around;
+    padding-right: 5%
+    
+}
+
+
+/* Button Tamplate */
+header a{
+    text-decoration: none;
+    margin-right: 9%;
+}
+#ButtonTerminal:hover{
+    box-shadow: 0 0 50px white;
+}
+#ButtonGit:hover{
+    box-shadow: 0 0 50px white;
+}
+#ButtonTerminal{
+    color: turquoise;
+    background-color: rgb(3, 3, 36);
+    border: 2px solid rgb(24, 196, 24);
+    border-radius: 51px;
+    padding: 2% 150% 2% 55%;
+    margin-top: 30%;
+ }
+#ButtonGit{
+    color: turquoise;
+    background-color: rgb(3, 3, 36);
+    border: 2px solid rgb(24, 196, 24);
+    border-radius: 51px;
+    padding: 2% 220% 2% 110%;
+    margin-top: 75%;
+
+}
+/* Button Tamplate End */
+/* Header End */
+
+
+
+/* Tamplate Start*/
+
+.BackgroundBlack:hover {
+    box-shadow: 0 0 50px white;
+}
+
+.BackgroundBlack{
+    background-color: black;
+    color:white;
+    margin: 5% 23% 5% 23%;
+    padding: 2% 0% 2% 0%;
+    border: 15px green solid;
+    border-radius: 51px;
+}
+
+h2{
+    color: rgb(24, 196, 24);
+    font-size: 5rem;
+    padding-bottom: 1%
+}
+
+
+p{
+    font-size: 5rem;
+    padding-bottom: 1%
+}
+
+
+p:nth-of-type(1){
+    color: turquoise;
+}
+
+
+p:nth-of-type(2){
+    color: gray;
+}
+
+
+p:nth-of-type(3){
+    color: orange;
+}
+
+
+.Article{
+    background-color: rgb(3, 3, 36);
+    margin: 0% 10% 0% 10%;
+}
+/* Tamplate Ende */

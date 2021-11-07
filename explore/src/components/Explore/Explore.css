@@ -1,0 +1,59 @@
+#back{
+    background-image: url(../../img/walk.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    padding-left: 20%;
+    margin-right: 5%;
+    
+}
+#back2{
+    background-image: url(../../img/fly.png);
+    background-repeat: no-repeat;
+    background-position-x: left;
+    padding: 0% 0% 10% 65%;
+}
+h1{
+    padding: 5% 0% 5% 0%;
+    font-size: 4rem;
+    margin-right: 70%;
+}
+h2{
+    font-size: 36px;
+    padding: 8% 0% 6% 0%;
+}
+
+#aNew{
+    padding: 0% 20% 5% 0%;
+}
+
+#Explore{
+    padding: 19px 46px;
+    background: #FB8F1D;
+    border-radius: 8px;
+    color:white;
+    margin-bottom: 10%;
+}
+#Button{
+    margin-top: 3%;
+}
+select{
+    padding: 1% 2%;
+    text-align: center;
+    border-style: 51px;
+    
+}
+#secound{
+    margin-left : 2%;
+}
+#Holiday{
+    padding-bottom: 1%;
+    
+}
+#border{
+
+   border-bottom: 3px solid black;
+   width: 40px;
+   margin-bottom: 10%;
+   
+   
+}

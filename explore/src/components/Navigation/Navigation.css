@@ -1,0 +1,29 @@
+a{
+    text-decoration: none;
+}
+
+.li{
+    list-style: none;
+    justify-content: space-around;
+    margin-right: 5%;
+}
+#nav{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+}
+
+#Login{
+    padding: 19px 46px;
+    border: 1px solid #FB8F1D;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: white;
+}
+#Register{
+    padding: 19px 46px;
+    background: #FB8F1D;
+    border-radius: 8px;
+    color:white;
+}

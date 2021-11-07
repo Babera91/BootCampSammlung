@@ -1,0 +1,117 @@
+img{
+    width: 200px;
+}
+header{
+    display:flex;
+    background-color: lightgray;
+    align-items: center;
+    
+}
+header h2 p{
+    flex-direction: column;
+}
+button{
+    background-color: red;
+    color: white;
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 1.2rem 0;
+}
+#calculation>div{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+    border-top: 1px solid silver;
+}
+#calculation>div:first-of-type{
+    text-decoration: line-through;
+    border-top: 3px solid silver;
+    padding-top: 0.5rem;
+}
+#firstSection img{
+    width: 50vw;
+    margin-left: 15%;
+}
+#firstSection {
+    background-color: lightgray;
+}
+
+
+#littleImg{
+    margin-left: 15%;
+}
+
+#stickyDiv{
+    display: inline-block;
+    position: fixed;
+    top:21.5vh;
+    right: 10vw;
+    background-color: white;
+    width: 20vw;
+    
+}
+.headLine{
+    background-color:rgb(56, 55, 55) ;
+    color:white;
+    padding: 1rem;
+}
+.number{
+    color:red;
+    font-size: 3rem;
+    font-weight: bold;
+    padding-left: 1rem;
+}
+.month{
+    color: red;
+    padding-left: 1rem;
+}
+.contition{
+    padding-left: 1rem;
+}
+/* Vehicle Details*/
+#Detail{
+    margin: 1% 0% 5% 15%;
+}
+table{
+    width: 80%;
+}
+
+/* vehicleDescription */
+#headlineVehicleDescription{
+    margin-left: 15%;
+}
+.vehicleDescription{
+   float: left;
+   margin-bottom: 5%;
+   
+}
+/* consumptionValues */
+#consumptionValues{
+    clear: left;
+    display: flex;
+    margin-left: 15%;
+}
+#effcient img{
+    width: 100%;
+}
+#effcient{
+    margin-left: 14%;
+    margin-bottom: 5%;
+}
+/* vehicleInPayment */
+
+#vehicleInPayment{
+    text-align: center;
+    color: orange;
+    background-color: rgb(56, 55, 55);
+    padding: 1% 1% 1% 2% ;
+    margin:0% 40% 5% 15%;
+}
+
+/* information */
+
+#information{
+    margin-left: 15%;
+    margin-right: 38%;
+}

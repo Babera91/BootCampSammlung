@@ -1,0 +1,15 @@
+#shop{
+    margin-top: 10%
+}
+img{
+    
+    width: 25vw;
+    height: 50vh;
+}
+
+button{
+    background-color: red;
+    border-radius: 50px;
+    padding: 1% 10% 1% 10%;
+    color:white;
+}
